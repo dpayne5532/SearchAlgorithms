@@ -1,6 +1,9 @@
 var states = ["Alabama", "Alaska", "American Samoa", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "District of Columbia", "Federated States of Micronesia", "Florida", "Georgia", "Guam", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine"];
 
 
+// ================LINEAR=SEARCH=====================================================
+
+
 function linearSearch(arr, val) {
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] === val) {
@@ -12,10 +15,12 @@ function linearSearch(arr, val) {
 
 // console.log(linearSearch(states, "Alaskaa"));
 
+// ================BINARY=SEARCH=====================================================
+
 // array must be sorted for binary search
 
 
-var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 
+var numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 
              27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
              51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74,
              75, 76, 77, 78];
@@ -41,9 +46,9 @@ function binarySearch(arr, val) {
   return -1;
 }
 
-// console.log(binarySearch(array, 57));
+// console.log(binarySearch(numArray, 57));
 
-
+// ================NAIVE=STRING=SEARCH==========================================
 
 // Naive String Search
 
